@@ -7,7 +7,7 @@ import { AuroraText } from './magicui/aurora-text';
 
 const HeroSection = () => {
     return (
-        <div className="h-screen flex flex-col items-center justify-center">
+        <div className="bg-gradient-to-b from-[#152331] to-[#000000] h-screen flex flex-col items-center justify-center">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}

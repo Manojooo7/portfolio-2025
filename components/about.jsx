@@ -6,29 +6,28 @@ import { MagicCard } from './magicui/magic-card';
 export function About() {
   return (
     <section id="about" className="py-20 px-4">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-2xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="grid md:grid-cols-2 gap-12 items-center"
+          className="grid md:grid-cols-1 gap-12 items-center justify-center"
         >
           {/* Image Section */}
-          <div className="relative">
-            <MagicCard className="relative w-full aspect-square rounded-2xl overflow-hidden">
-              <Image
-                src="/https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D%20387w"
-                alt="Manoj Mondal"
-                fill
-                className="object-cover"
-                priority
-              />
-            </MagicCard>
+          <div className="flex justify-center align-middle border border-white rounded-full w-60 h-60 overflow-clip">
+            <Image
+              src="/manoj-2.jpg"
+              alt="Manoj Mondal"
+              width={200}
+              height={200}
+              className="object-cover"
+              priority
+            />
           </div>
 
           {/* Content Section */}
-          <div className="space-y-6">
+          <div className="space-y-6 text-center">
             <h2 className="text-3xl font-bold">About Me</h2>
             <div className="space-y-4 text-gray-300">
               <p>
@@ -39,7 +38,7 @@ export function About() {
                 With a strong foundation in full-stack development, I enjoy creating efficient solutions 
                 that solve real-world problems. My experience includes working with:
               </p>
-              <ul className="grid grid-cols-2 gap-2 mt-4">
+              <ul className="grid grid-cols-2 gap-2 mt-4 justify-items-center">
                 {[
                   "React.js",
                   "Next.js",
@@ -62,21 +61,6 @@ export function About() {
               </p>
             </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-4 mt-8">
-              <div className="text-center">
-                <h3 className="text-3xl font-bold text-blue-500">3+</h3>
-                <p className="text-sm text-gray-400">Years Experience</p>
-              </div>
-              <div className="text-center">
-                <h3 className="text-3xl font-bold text-blue-500">20+</h3>
-                <p className="text-sm text-gray-400">Projects Completed</p>
-              </div>
-              <div className="text-center">
-                <h3 className="text-3xl font-bold text-blue-500">15+</h3>
-                <p className="text-sm text-gray-400">Happy Clients</p>
-              </div>
-            </div>
           </div>
         </motion.div>
       </div>
