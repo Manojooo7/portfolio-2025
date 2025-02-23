@@ -49,7 +49,7 @@ export function Navbar() {
             <span className="font-medium text-sm hidden sm:inline-block">Manoj.dev</span>
           </Link>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/Manojooo7"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-400 hover:text-white transition-colors"
@@ -57,7 +57,7 @@ export function Navbar() {
             <IconBrandGithub className="h-5 w-5" />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/manojoo7"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-400 hover:text-white transition-colors"

@@ -6,28 +6,31 @@ import { MagicCard } from './magicui/magic-card';
 export function About() {
   return (
     <section id="about" className="py-20 px-4">
-      <div className="max-w-2xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="grid md:grid-cols-1 gap-12 items-center justify-center"
+          className="grid md:grid-cols-2 gap-12 items-center justify-center"
         >
           {/* Image Section */}
-          <div className="flex justify-center align-middle border border-white rounded-full w-60 h-60 overflow-clip">
+          <div className="w-96">
+
+          <div className="flex justify-center align-middle border border-white rounded-full overflow-clip">
             <Image
               src="/manoj-2.jpg"
               alt="Manoj Mondal"
-              width={200}
-              height={200}
+              width={600}
+              height={600}
               className="object-cover"
               priority
-            />
+              />
+          </div>
           </div>
 
           {/* Content Section */}
-          <div className="space-y-6 text-center">
+          <div className="space-y-6">
             <h2 className="text-3xl font-bold">About Me</h2>
             <div className="space-y-4 text-gray-300">
               <p>
@@ -38,7 +41,7 @@ export function About() {
                 With a strong foundation in full-stack development, I enjoy creating efficient solutions 
                 that solve real-world problems. My experience includes working with:
               </p>
-              <ul className="grid grid-cols-2 gap-2 mt-4 justify-items-center">
+              <ul className="grid grid-cols-2 gap-2 mt-4">
                 {[
                   "React.js",
                   "Next.js",

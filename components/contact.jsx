@@ -12,13 +12,13 @@ export function Contact() {
             I'm currently open to new opportunities. Whether you have a question or just want to say hi, I'll get back to you!
           </p>
           <div className="flex justify-center gap-6">
-            <a href="mailto:your.email@example.com" className="hover:text-indigo-400">
+            <a href="mailto:manoj.mondaal@gmail.com" className="hover:text-indigo-400">
               <IconMail className="w-8 h-8" />
             </a>
-            <a href="https://github.com/yourusername" className="hover:text-indigo-400">
+            <a href="https://github.com/Manojooo7" className="hover:text-indigo-400">
               <IconBrandGithub className="w-8 h-8" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" className="hover:text-indigo-400">
+            <a href="https://linkedin.com/in/manojoo7" className="hover:text-indigo-400">
               <IconBrandLinkedin className="w-8 h-8" />
             </a>
           </div>
