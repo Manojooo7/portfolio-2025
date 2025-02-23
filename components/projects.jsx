@@ -15,8 +15,8 @@ export function Projects() {
       description: "AI-powered travel itinerary planner that creates personalized travel schedules based on user preferences, local attractions, and time constraints.",
       image: "/itinerary-wizard-hero.png",
       tech: ["Next.js", "Node.js", "NeonDB", "PostgreSQL", "Clerk", "Prisma", "Gemini AI", "TailwindCSS", "Aceternity UI" , "Shadcn UI", "Magic UI", "Resend", "Double tick", "Webhook"],
-      link: "https://itinerary-wizard.com",
-      github: "https://github.com/username/itinerary-wizard",
+      link: "https://itinerary-wizard.vercel.app/",
+      github: "https://github.com/Manojooo7/itinerary-wizard",
       longDescription: "A sophisticated AI-driven travel planning application that revolutionizes how people organize their trips. Built with Next.js and powered by OpenAI's GPT-4, it analyzes user preferences, travel duration, and destination details to create optimized day-by-day itineraries. Features include real-time weather integration, local event recommendations, and dynamic routing optimization.",
     },
     {
@@ -24,8 +24,8 @@ export function Projects() {
       description: "Streamline your workflow with our intuitive project management tool.",
       image: "/zscrum-hero.png",
       tech: ["React", "Node.js", "NeonDB", "PostgreSQL", "Clerk", "Prisma", "TailwindCSS", "Shadcn UI"],
-      link: "https://zscrum.dev",
-      github: "https://github.com/username/zscrum",
+      link: "https://zscrum-rust.vercel.app/",
+      github: "https://github.com/Manojooo7/Zscrum",
       longDescription: "A comprehensive project management solution designed for modern development teams. ZSCRUM combines the best practices of agile methodologies with an intuitive interface to help teams track progress, manage tasks, and collaborate effectively.",
     },
     // Add more projects as needed
