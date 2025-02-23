@@ -15,9 +15,9 @@ export function About() {
           className="grid md:grid-cols-2 gap-12 items-center justify-center"
         >
           {/* Image Section */}
-          <div className="w-96">
+          <div className="lg:w-96 sm:w-72 md:w-80 ">
 
-          <div className="flex justify-center align-middle border border-white rounded-full overflow-clip">
+          <div className="flex justify-center align-middle border border-white rounded-full overflow-hidden">
             <Image
               src="/manoj-2.jpg"
               alt="Manoj Mondal"
@@ -30,7 +30,7 @@ export function About() {
           </div>
 
           {/* Content Section */}
-          <div className="space-y-6">
+          <div className="space-y-4 md:space-y-6 overflow-clip">
             <h2 className="text-3xl font-bold">About Me</h2>
             <div className="space-y-4 text-gray-300">
               <p>
